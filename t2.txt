@@ -1,0 +1,14 @@
+git init---mevcut dosya içine dahil ediliyor
+git status---mevcut durumunu gösterir g.t o andaki /// tekrar eðer commit edilmemiþ dosya varsa ýnlarý gösterir
+git add <dosyaa adý> buda dosyalarý commit etmeye yerýyor  yani commit edilecek dosyaya ekleer
+git commit projenin o andaki durmunu kaydeder.
+git commit -m "isim" budda oluþturulan commit dosyasýna isim felan veriyr
+git config --global user.email "you@example.com" //bunlar da kendini tanýtma için diðer kullanýcýlara
+  git config --global user.name "Your Name"
+
+git log --- buda tüm yapýlan commitleri ve oluþturulan deðiþiklikleri giösterir
+ 
+
+eðer herhangi bir deðiþiklik yaparsak bize commit etkmek için o dosyayý gösterir ve 	modified:dosya adý þeklinde bize üzerinde deðiþiklik yapýlan dosylarý göterir	sonrada en baþtan git add diyip sonra tekrar commitleyecez   bu ayný baðlý liste gibi birbiri ardýna ekliyor sonra tekrar git log derdek de yapýlan deðiþiklikleri orda bize listeliyor
+
+ls -la dersek de gir içindeki çaýlþan yada ihtiyaç duyulan dosylarýn adýný liste haline verir
